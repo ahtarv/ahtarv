@@ -84,8 +84,8 @@ My current focus: **Computer vision architectures, efficient inference, and the 
 ## 📚 Education & Recognition
 
 **DJ Sanghvi College of Engineering**  
-*Bachelor of Technology in Information Technology | 2022–2028*  
-- CGPA: **9.32/10.0** (Semester II) | Dean's List
+*Bachelor of Technology in Information Technology | 2024–2028*  
+- CGPA: **9.32/10.0** (Semester II) 
 - **Relevant Coursework:** Data Structures & Algorithms, Machine Learning, Computer Vision, Database Systems
 
 **Selected Achievements:**
