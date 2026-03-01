@@ -1,134 +1,135 @@
-# 👋 Hi, I'm Atharv Patil
+# 👋 Hi, I’m Atharv Kamlesh Patil
 
-🚀 **Research Engineer | Bridging Cutting-Edge AI Research with Production Systems**
+**B.Tech in Information Technology @ D.J. Sanghvi College of Engineering (DJSCE), Mumbai**  
+📅 2024 – 2028 | 📊 SGPA: **9.32 / 9.05 / 8.65**
 
-I systematically **deconstruct, implement, and critically evaluate** novel AI architectures from research papers, with a focus on computer vision and recommender systems. My work lives at the intersection of **research rigor and engineering pragmatism**—transforming theoretical advances into efficient, production-aware implementations while documenting their real-world trade-offs.
-
-📍 **Mumbai, India**  
-📫 **Contact:** [atharvkpatil@gmail.com](mailto:atharvkpatil@gmail.com)  
+I work at the intersection of **statistical machine learning**, **time-series forecasting**, and **hardware-aware AI systems**. My interests revolve around building models that are not just accurate, but *deployable, efficient, and production-ready*—especially under real-world constraints.
 
 ---
 
-## 🔬 Research & Engineering Philosophy
+## 🎓 Academic Focus
+- Statistical Machine Learning  
+- Time-Series Forecasting  
+- Hardware-Aware & Edge AI Systems  
 
-I approach AI systems with a dual lens:
-- **As a researcher:** Reading papers, implementing novel architectures, designing controlled experiments to validate claims
-- **As an engineer:** Building robust integrations, optimizing for deployment constraints, maintaining production-grade code
+**Honors**  
+- Recipient of the *Principal’s Letter of Recommendation* for excellence in technical development and research.
 
-My current focus: **Computer vision architectures, efficient inference, and the practical gaps between academic papers and real-world deployment.**
-
----
-
-## 🧠 Featured Research Implementation
-
-### 🎯 **DFEM-Net: Architectural Analysis & Efficiency Study**
-**Independent Research | PyTorch, YOLOv8, Profiling**  
-*[📂 Repository](https://github.com/ahtarv/DFEM-Net) | [📄 Paper](https://www.sciencedirect.com/science/article/abs/pii/S026322412600045X)*
-
-- **Deconstructed & implemented** a 2026 CVPR paper proposing DFEM-Net for pedestrian/vehicle detection
-- **Engineered framework integration** by adapting the architecture to Ultralytics YOLOv8's parser (resolved YAML/API incompatibilities)
-- **Designed & executed an efficiency ablation study:**
-  - Scaled model to nano variant (32 vs. 256 channels) to isolate per-operation cost
-  - Benchmarked on constrained hardware (Intel i3-1215U) for real-world baseline
-  - **Identified 70× inference slowdown** (3.8s vs. 0.05s for YOLOv8), revealing fundamental architectural trade-offs
-- **Documented engineering decisions** in a scholarly README with paper citations and methodological transparency
-
-*This project exemplifies my workflow: Paper → Implementation → Controlled Experiment → Critical Analysis → Scholarly Documentation.*
+**Relevant Coursework**
+- Advanced Data Structures  
+- Neural Networks  
+- Computer Vision  
+- Linear Algebra  
 
 ---
 
-## 🛠️ Technical Projects
+## 🧠 Technical Skills
 
-### 🧥 **AI Personal Stylist — Production-Grade Recommender System**
-**Python, Scikit-learn, NumPy, Matplotlib**
-- Engineered personalized fashion recommender with **long-term memory & preference decay modeling**
-- Implemented **ε-greedy exploration**, repetition control, and confidence scoring for novelty/accuracy balance
-- Added **explainable recommendation interfaces** and offline preference visualization dashboards
+### Programming Languages
+- **Python** (Pandas, NumPy)
+- **R** (ggplot2, dplyr, forecast)
+- **SQL**, **Rust**, **Java**, **Dart**, **C++**, **JavaScript**
 
-### 📰 **Content Discovery Engine — Diversity-Aware Recommender**
-**FastAPI, Sentence Transformers, FAISS, SQLite**
-- Built content recommender learning from **both positive and negative reading behavior**
-- Implemented **Maximal Marginal Relevance (MMR), topic exposure constraints, and source caps** for diversity
-- Designed **transparent, inspectable ranking signals** to support auditability and fairness analysis
-- Modular architecture using embeddings, vector search, and RESTful API
+### Data Science & Statistics
+- SARIMA / ARIMA
+- STL Decomposition
+- Poisson Processes
+- Exploratory Data Analysis (EDA)
+- Hypothesis Testing
+- Geospatial Analytics
 
-### 📱 **Closed Beta Mobile Application — Full-Stack Migration**
-**Flutter, Dart, Firebase**
-- Led **cross-platform migration** of 10,000+ LOC application from native Swift to Flutter
-- Implemented **real-time chat, content posting, and engagement analytics**
-- Managed **closed beta with 20+ users**, collecting and analyzing 15+ structured feedback reviews
+### AI & ML Frameworks
+- PyTorch
+- YOLOv8
+- Hugging Face
+- FAISS Vector Search
+- OpenCV
+- Sentence Transformers
+- Scikit-learn
 
-### 🔬 **Other Technical Experiments**
-- **Emotion Detection from Voice:** Real-time system using MFCC features + Random Forest (CLI + Tkinter GUI)
-- **PDF to Audiobook Converter:** CLI tool using PyMuPDF and edge_tts for text-to-speech synthesis
-- **Romeo AI (Ongoing):** Conversational assistant with emotion-aware dialogue suggestions
-
----
-
-## 🛠️ Technical Toolkit
-
-**Languages & Platforms:**  
-`Python` `SQL` `Java` `Dart (Flutter)` `JavaScript` `HTML/CSS`
-
-**AI/ML Stack:**  
-`PyTorch` `Scikit-learn` `Hugging Face Transformers` `OpenCV` `NumPy` `Pandas` `Matplotlib`
-
-**Systems & Deployment:**  
-`FastAPI` `SQLite` `Git` `GitHub Actions` `Docker` `Linux` `Google Colab`
-
-**Research & Analysis:**  
-`LaTeX` `Zotero` `arXiv` `Profiling Tools` `Experimental Design`
+### Tools & Systems
+- FastAPI
+- Docker
+- GitHub Actions
+- n8n Agentic Workflows
+- Linux (Ubuntu)
+- Git
+- REST APIs
+- SQLite
 
 ---
 
-## 📚 Education & Recognition
+## 🚀 Featured Projects
 
-**DJ Sanghvi College of Engineering**  
-*Bachelor of Technology in Information Technology | 2024–2028*  
-- CGPA: **9.32/10.0** (Semester II) 
-- **Relevant Coursework:** Data Structures & Algorithms, Machine Learning, Computer Vision, Database Systems
-
-**Selected Achievements:**
-- **Mumbai Hacks 2025** — 24-hour AI/ML hackathon finalist
-- **6× Model United Nations** participant, 3× award winner (Best Delegate, Verbal Commendation)
-- **DJS Arya — Official CanSat Team** member (avionics/software subgroup)
-- **Python & SQL for Data Science** — Scaler Certification
+### 📈 Sales Intelligence & Predictive Forecasting  
+**Python · R | Feb 2026**
+- Generated **730 days of synthetic retail transactions** using Poisson processes with modeled holiday (40%) and weekend (20%) demand surges.
+- Applied **STL decomposition** to extract trend and seasonality; engineered **Seasonal ARIMA models** with 95% confidence intervals.
+- Migrated forecasting logic from R to Python for **production-grade API deployment**.
+- Built promotion-impact visualizations using **ggplot2** with multi-key categorical analysis.
 
 ---
 
-## 📖 Research Interests & Exploration
-
-**Currently exploring:**
-- Efficient neural architecture design for edge deployment
-- Gaps between academic benchmarks and production performance
-- Reproducibility engineering in machine learning
-- Explainable AI and model interpretability
-
-**Reading & Implementation Pipeline:**  
-arXiv daily alerts → Paper deconstruction → Minimal implementation → Benchmarking → Documentation
+### 🧠 BhaskarNet: Hardware-Aware AI Systems  
+**GitHub | Jan 2026**
+- Reimplemented **DFEM-Net**, integrating **Deformable Convolutions** and **Scale-Sequence Multi-scale Fusion** for YOLOv8 optimization.
+- Designed **Pseudo-3D Scale-Sequence Attention modules**, achieving a **10.6× speedup** (274ms latency) on Intel i3 hardware.
+- Focused on bridging research-grade vision models with **real-time edge inference** in low-visibility environments.
 
 ---
 
-## 🌐 Connect & Collaborate
-
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
-
-**I'm actively seeking:**
-- Research assistant positions in computer vision or efficient ML
-- Collaboration on open-source AI implementations
-- Internships at the intersection of research and engineering
+### 🤖 AI Content Automation & Agentic Orchestrator  
+**GitHub | Jan 2026**
+- Architected an **agentic n8n workflow** for automated content orchestration, reducing manual overhead by **70%**.
+- Implemented **retrieval-augmented generation (RAG)** pipelines with semantic search.
+- Applied **MMR (Maximal Marginal Relevance)** reranking to improve recommendation diversity using Sentence Transformers.
 
 ---
 
-## 📈 GitHub Activity
+### 🌍 Geospatial Network Analytics Engine  
+**GitHub | Dec 2025**
+- Simulated **1,000+ network events** via custom IPv4 generation and POSIX time sequences.
+- Built an interactive **Leaflet-based global traffic map** in R.
+- Visualized latency hotspots using **geospatial clustering and heatmaps**.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+---
+
+### 🎯 Stochastic Recommender System  
+**GitHub | Nov 2025**
+- Designed a recommender system with **preference-decay logic** and **ϵ-greedy exploration** to solve cold-start problems.
+- Integrated **FAISS** for sub-10ms similarity search under high concurrency.
+- Optimized discovery in high-dimensional embedding spaces.
 
 ---
 
-⭐ **If you appreciate research-driven engineering, feel free to star my [DFEM-Net implementation](https://github.com/ahtarv/DFEM-Net) or reach out to discuss papers and implementations!**
+### ⚡ High-Performance Systems Utility (Rust)  
+**GitHub | Feb 2026**
+- Built a **memory-safe Rust CLI tool** for high-speed Euclidean distance computation.
+- Used zipped iterators and zero-cost abstractions to achieve **O(n)** performance.
+- Implemented robust input parsing and production-grade error handling.
 
 ---
+
+## 🏫 Leadership & Experience
+
+### 🚀 DJS Arya – Official College CanSat Team  
+**Junior Software & Telemetry Systems Engineer | 2025 – Present**
+- Developing **real-time telemetry pipelines** for atmospheric sensor data.
+- Working on packet synchronization and latency reduction for ground-station visualization.
+- Optimizing data transmission for high-frequency sensor streams during descent simulations.
+
+---
+
+### 🌐 Model United Nations (MUN)  
+**Vice Chair & Award Recipient | 2025 – Present**
+- 3× award recipient for diplomatic excellence.
+- Managed committees of **50+ delegates**, moderating complex international negotiations.
+- Led drafting of multilateral policy resolutions under time pressure.
+
+---
+
+## 📫 Let’s Connect
+- Interested in **ML systems**, **edge AI**, **time-series forecasting**, or **research-driven engineering**
+- Open to collaborations, research discussions, and impactful projects
+
+⭐ If you find my work interesting, feel free to explore the repositories and drop a star!
