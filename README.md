@@ -13,14 +13,6 @@ I work at the intersection of computational chemistry, graph neural networks, an
 - Time-Series Forecasting
 - Hardware-Aware & Edge AI Systems
 
-**Honors**
-- Recipient of the Principal’s Letter of Recommendation for excellence in technical development and research.
-
-**Relevant Coursework**
-- Advanced Data Structures
-- Neural Networks
-- Computer Vision
-- Linear Algebra
 
 ---
 
