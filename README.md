@@ -1,87 +1,53 @@
-# Atharv Kamlesh Patil
+# Hi, I'm Atharv Kamlesh Patil
 
-**B.Tech in Information Technology | D.J. Sanghvi College of Engineering (DJSCE), Mumbai**
-2024 – 2028 | SGPA: 9.32 / 9.05 / 8.65
+**B.Tech in Information Technology @ D.J. Sanghvi College of Engineering, Mumbai** | [atharvkpatil@gmail.com]() | [LinkedIn](https://www.google.com/search?q=https://linkedin.com/in/atharv-kamlesh-patil-27373b20b) | [ORCID: 0009-0008-0802-8362](https://www.google.com/search?q=https://orcid.org/0009-0008-0802-8362)
 
-I work at the intersection of computational chemistry, graph neural networks, and hardware-aware AI systems. My research focuses on architectural co-optimization—building models that align inductive biases with network depth to achieve state-of-the-art performance under real-world constraints.
-
----
-
-## Academic Focus
-- Molecular Machine Learning (GNNs)
-- Statistical Machine Learning
-- Time-Series Forecasting
-- Hardware-Aware & Edge AI Systems
-
+I work at the intersection of computational chemistry, graph neural networks, and hardware-aware AI systems. My focus is on **architectural co-optimization**—building deep learning models that align inductive biases with network depth to achieve state-of-the-art performance under brutal, real-world compute constraints.
 
 ---
 
-## Technical Skills
+## Technical Core
 
-### Programming Languages
-- Python (Pandas, NumPy, PyTorch)
-- R (ggplot2, dplyr, forecast)
-- SQL, Rust, Java, Dart, C++, JavaScript
-
-### Data Science & AI Frameworks
-- Graph Neural Networks (GNNs)
-- PyTorch / PyTorch Geometric
-- SARIMA / ARIMA / STL Decomposition
-- YOLOv8 / OpenCV
-- Hugging Face / Sentence Transformers
-- FAISS Vector Search
-- Geospatial Analytics
-
-### Tools & Systems
-- FastAPI, Docker, GitHub Actions
-- n8n Agentic Workflows
-- Linux (Ubuntu), Git, SQLite
+* **Languages:** Python (PyTorch, JAX), Rust, C++, SQL, R, Java, JavaScript
+* **AI & ML Frameworks:** PyTorch Geometric, Hugging Face, Transformers, YOLOv8, OpenCV, FAISS Vector Search
+* **Systems & Infra:** FastAPI, Docker, Linux (Ubuntu), GitHub Actions, n8n Agentic Workflows
 
 ---
 
-## Featured Projects
+## Featured Projects & Research
 
-### Ryeon: Architectural Co-Optimization for Molecular GNNs
-**Research Preprint | Feb 2026**
-**Paper:** [https://doi.org/10.6084/m9.figshare.32115253](https://doi.org/10.6084/m9.figshare.32115253)
-**Code:** [https://github.com/ahtarv/ryeon_0.1-0.2](https://github.com/ahtarv/ryeon_0.1-0.2)
-- Investigated the coupling between chemically-motivated inductive biases and GNN depth.
-- Proved that "electron_bias" features (targeting N, O, S, and pi bonds) only improve performance in shallow architectures; in 5-layer GCNs, over-smoothing suppresses the bias signal, degrading performance by 2.1%.
-- Achieved a 14.9% RMSE improvement on ESOL over published MolGramTreeNet baselines.
-- Demonstrated 10x bias parameter growth on QM9 dipole moment targets, showing utility for quantum property prediction.
+### 1. Ryeon: Architectural Co-Optimization for Molecular GNNs
 
-### Sales Intelligence & Predictive Forecasting
-**Python · R | Feb 2026**
-- Generated 730 days of synthetic retail transactions using Poisson processes with modeled holiday (40%) and weekend (20%) demand surges.
-- Applied STL decomposition to extract trend and seasonality; engineered Seasonal ARIMA models with 95% confidence intervals.
-- Migrated forecasting logic from R to Python for production-grade API deployment.
+**Research Preprint (Feb 2026)** | [Paper](https://doi.org/10.6084/m9.figshare.32115253) | [Code](https://github.com/ahtarv/ryeon_0.1-0.2)
 
-### BhaskarNet: Hardware-Aware AI Systems
-**GitHub | Jan 2026**
-- Reimplemented DFEM-Net, integrating Deformable Convolutions and Scale-Sequence Multi-scale Fusion for YOLOv8 optimization.
-- Designed Pseudo-3D Scale-Sequence Attention modules, achieving a 10.6x speedup (274ms latency) on Intel i3 hardware.
-- Bridged research-grade vision models with real-time edge inference for low-visibility environments.
+* Investigated the structural coupling between chemically-motivated inductive biases and GNN layers.
+* Proved that "electron_bias" features targeting N, O, S, and pi bonds degrade performance by 2.1% in deeper 5-layer GCNs due to over-smoothing suppressing the bias signal.
+* Achieved a **14.9% RMSE improvement** on ESOL benchmarks over published MolGramTreeNet baselines.
 
-### AI Content Automation & Agentic Orchestrator
-**GitHub | Jan 2026**
-- Architected an agentic n8n workflow for automated content orchestration, reducing manual overhead by 70%.
-- Implemented retrieval-augmented generation (RAG) pipelines with semantic search and MMR (Maximal Marginal Relevance) reranking.
+### 2. BhaskarNet: Hardware-Aware Edge Vision
 
----
+**Computer Vision** | [Code](https://www.google.com/search?q=https://github.com/ahtarv)
 
-## Leadership & Experience
+* Reimplemented DFEM-Net, integrating Deformable Convolutions and Scale-Sequence Multi-scale Fusion for YOLOv8 optimization.
+* Designed Pseudo-3D Scale-Sequence Attention modules, achieving a **10.6x inference speedup** (274ms latency) optimized directly for low-tier Intel i3 hardware.
 
-### DJS Arya – Official College CanSat Team
-**Junior Software & Telemetry Systems Engineer | 2025 – Present**
-- Developing real-time telemetry pipelines for atmospheric sensor data and optimizing packet synchronization for ground-station visualization.
+### 3. Sales Intelligence & Predictive Forecasting
 
-### Model United Nations (MUN)
-**Vice Chair & Award Recipient | 2025 – Present**
-- 3x award recipient for diplomatic excellence; managed committees of 50+ delegates to draft multilateral policy resolutions.
+**Time-Series & Mathematical Modeling**
+
+* Generated 730 days of synthetic retail transactions using Poisson processes with modeled holiday (40%) and weekend (20%) demand surges.
+* Applied STL decomposition to extract trend/seasonality and deployed Seasonal ARIMA models with 95% confidence intervals into a production-grade Python API.
+
+### 4. AI Content Automation & Agentic Orchestrator
+
+**Generative AI / Ops**
+
+* Architected an autonomous n8n workflow for content orchestration, reducing manual overhead by 70%.
+* Implemented RAG (Retrieval-Augmented Generation) pipelines utilizing semantic search and MMR (Maximal Marginal Relevance) reranking.
 
 ---
 
-## Contact
-- Email: atharvkpatil@gmail.com
-- Location: Mumbai, India
-- ORCID: 0009-0008-0802-8362
+## Engineering Experience & Leadership
+
+* **Junior Software & Telemetry Engineer** @ DJS Arya (CanSat Team) | *2025 – Present* Optimizing real-time telemetry pipelines for atmospheric sensor data and engineering ground-station packet synchronization.
+* **Vice Chair** @ Model United Nations | *2025 – Present* 3x award recipient for diplomatic excellence; chaired committees of 50+ delegates to synthesize multilateral policy.
