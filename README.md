@@ -1,53 +1,76 @@
-# Hi, I'm Atharv Kamlesh Patil
+```markdown
+# Atharv Kamlesh Patil
 
-**B.Tech in Information Technology @ D.J. Sanghvi College of Engineering, Mumbai** | [atharvkpatil@gmail.com]() | [LinkedIn](https://www.google.com/search?q=https://linkedin.com/in/atharv-kamlesh-patil-27373b20b) | [ORCID: 0009-0008-0802-8362](https://www.google.com/search?q=https://orcid.org/0009-0008-0802-8362)
-
-I work at the intersection of computational chemistry, graph neural networks, and hardware-aware AI systems. My focus is on **architectural co-optimization**—building deep learning models that align inductive biases with network depth to achieve state-of-the-art performance under brutal, real-world compute constraints.
-
----
-
-## Technical Core
-
-* **Languages:** Python (PyTorch, JAX), Rust, C++, SQL, R, Java, JavaScript
-* **AI & ML Frameworks:** PyTorch Geometric, Hugging Face, Transformers, YOLOv8, OpenCV, FAISS Vector Search
-* **Systems & Infra:** FastAPI, Docker, Linux (Ubuntu), GitHub Actions, n8n Agentic Workflows
+**B.Tech in Information Technology @ D.J. Sanghvi College of Engineering, Mumbai**  
+📧 [atharvkpatil@gmail.com](mailto:atharvkpatil@gmail.com) | 💼 [LinkedIn](https://linkedin.com/in/atharv-kamlesh-patil-27373b20b) | 📑 [ORCID: 0009-0008-0802-8362](https://orcid.org/0009-0008-0802-8362)
 
 ---
 
-## Featured Projects & Research
+> I work at the intersection of quantitative modeling, continuous-time deep learning, and graph neural networks. My focus is on **architectural co-optimization and signal extraction**—building statistical, time-series, and continuous-state models (Neural ODEs) that yield high alpha under complex real-world data constraints.
 
-### 1. Ryeon: Architectural Co-Optimization for Molecular GNNs
+---
 
-**Research Preprint (Feb 2026)** | [Paper](https://doi.org/10.6084/m9.figshare.32115253) | [Code](https://github.com/ahtarv/ryeon_0.1-0.2)
+## 🛠️ Technical Core
 
-* Investigated the structural coupling between chemically-motivated inductive biases and GNN layers.
-* Proved that "electron_bias" features targeting N, O, S, and pi bonds degrade performance by 2.1% in deeper 5-layer GCNs due to over-smoothing suppressing the bias signal.
+* **Languages:** `Python (PyTorch, JAX, NumPy, Pandas)`, `C++`, `Rust`, `SQL`
+* **Quant & ML Frameworks:** `PyTorch Geometric`, `SciPy`, `Statsmodels`, `Hugging Face`, `Transformers`, `YOLOv8`, `FAISS Vector Search`
+* **Systems & Infra:** `FastAPI`, `Docker`, `Linux (Ubuntu)`, `GitHub Actions`, `n8n Agentic Workflows`
+
+---
+
+## 📊 Quantitative Finance & Algorithmic Achievements
+
+
+```
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🏆 WorldQuant BRAIN — Gold Researcher                                      │
+│     Built & backtested quantitative alpha signals on global market datasets.│
+│     Passed statistical performance, turnover, & decorrelation filters.      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  ⚡ QuantStorm Trading Competition — Rank 143 / 2,100+                       │
+│     Executed quantitative trading strategies under live market constraints.  │
+│     Placed in the Top 6.8% nationwide among quantitative researchers.       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+```
+
+---
+
+## 🔬 Featured Projects & Research
+
+### 1. Continuous-Time Graph Neural Networks (GNN-NDDEs) & Ryeon Framework
+**Research Preprint (Feb 2026)** | 📄 [Paper](https://doi.org/10.6084/m9.figshare.32115253) | 💻 [Code](https://github.com/ahtarv/ryeon_0.1-0.2)
+
+* Formulated continuous-time Graph Neural Network dynamics using **Neural Delay Differential Equations (NDDEs)** to model time-lagged, non-stationary structural signals.
+* Investigated structural coupling between domain-specific inductive biases and GNN depth, proving feature signal suppression caused by over-smoothing in deep GCN layers.
 * Achieved a **14.9% RMSE improvement** on ESOL benchmarks over published MolGramTreeNet baselines.
 
-### 2. BhaskarNet: Hardware-Aware Edge Vision
+---
 
-**Computer Vision** | [Code](https://www.google.com/search?q=https://github.com/ahtarv)
+### 2. Time-Series Sales Intelligence & Predictive Forecasting
+**Statistical Modeling & Pipeline Engineering**
 
-* Reimplemented DFEM-Net, integrating Deformable Convolutions and Scale-Sequence Multi-scale Fusion for YOLOv8 optimization.
-* Designed Pseudo-3D Scale-Sequence Attention modules, achieving a **10.6x inference speedup** (274ms latency) optimized directly for low-tier Intel i3 hardware.
-
-### 3. Sales Intelligence & Predictive Forecasting
-
-**Time-Series & Mathematical Modeling**
-
-* Generated 730 days of synthetic retail transactions using Poisson processes with modeled holiday (40%) and weekend (20%) demand surges.
-* Applied STL decomposition to extract trend/seasonality and deployed Seasonal ARIMA models with 95% confidence intervals into a production-grade Python API.
-
-### 4. AI Content Automation & Agentic Orchestrator
-
-**Generative AI / Ops**
-
-* Architected an autonomous n8n workflow for content orchestration, reducing manual overhead by 70%.
-* Implemented RAG (Retrieval-Augmented Generation) pipelines utilizing semantic search and MMR (Maximal Marginal Relevance) reranking.
+* Modeled stochastic demand signals across 730 days of transactions using **non-homogeneous Poisson processes** incorporating calendar-adjusted holiday (40%) and weekend (20%) multipliers.
+* Executed **STL decomposition** (Seasonal-Trend decomposition using LOESS) to isolate non-stationary trend components and deployed **Seasonal ARIMA models** (with 95% CI bounds) into a low-latency Python API.
 
 ---
 
-## Engineering Experience & Leadership
+### 3. BhaskarNet: Hardware-Aware Edge Vision
+**Computer Vision & Latency Optimization** | 💻 [Code](https://github.com/ahtarv)
 
-* **Junior Software & Telemetry Engineer** @ DJS Arya (CanSat Team) | *2025 – Present* Optimizing real-time telemetry pipelines for atmospheric sensor data and engineering ground-station packet synchronization.
-* **Vice Chair** @ Model United Nations | *2025 – Present* 3x award recipient for diplomatic excellence; chaired committees of 50+ delegates to synthesize multilateral policy.
+* Reimplemented DFEM-Net integrating **Deformable Convolutions** and **Scale-Sequence Multi-scale Fusion** for YOLOv8 optimization.
+* Designed Pseudo-3D Scale-Sequence Attention modules, achieving a **10.6x inference speedup** (274ms latency) optimized directly for low-tier hardware execution.
+
+---
+
+## 🚀 Engineering Experience & Leadership
+
+* **Junior Software & Telemetry Engineer** @ DJS Arya (CanSat Team) | *2025 – Present*  
+  Optimizing real-time telemetry processing pipelines for atmospheric sensor streams and engineering low-latency ground-station packet synchronization protocols.
+* **Vice Chair** @ Model United Nations | *2025 – Present*  
+  3x award recipient for diplomatic excellence; chaired committees of 50+ delegates to synthesize multilateral policy and strategic resolutions.
+
+```
+
+---
